@@ -37,7 +37,7 @@ This system enables natural language querying, reasoning, and visualization of v
   - Visualization (50 queries, 12.5%)
 
 ### **3. Ground Truth Data**
-- `Ground truth with 4 consistent layers.zip` - Ground truth answers for evaluation
+- `Ground truth with 4 consistent layers.zip` - Ground truth model in RHino geometries
 
 ### **4. Neo4j Database**
 - `neo4j-2025-12-29T03-39-58.dump` - Complete Neo4j database dump (16,116 voxels with 50+ attributes each, this data can be used as a practice to demonstrate the developed system inside RHino3D)
