@@ -24,7 +24,7 @@ This system enables natural language querying, reasoning, and visualization of v
 - `voxel to voxel relationship calculator.py` - Graph relationship generator
 - `voxel_metadata.json` - Voxel metadata structure
 
-### **2. Evaluation Dataset**
+### **2. Evaluation Dataset for response accuracy**
 - `Q&A_Dataset_400.xlsx` - **400 question-answer pairs** across 9 task categories
   - Attribute Retrieval (50 queries, 12.5%)
   - Filtering (40 queries, 10%)
@@ -36,10 +36,13 @@ This system enables natural language querying, reasoning, and visualization of v
   - Proximity (40 queries, 10%)
   - Visualization (50 queries, 12.5%)
 
-### **3. Ground Truth Data**
+### **3. Evaluation Dataset for routing accuracy**
+  - `Q&A_Dataset_200.xlsx` - **200 question-answer pairs** across 9 task categories
+
+### **4. Ground Truth Data**
 - `Ground truth with 4 consistent layers.zip` - Ground truth model in RHino geometries
 
-### **4. Neo4j Database**
+### **5. Neo4j Database**
 - `neo4j-2025-12-29T03-39-58.dump` - Complete Neo4j database dump (16,116 voxels with 50+ attributes each, this data can be used as a practice to demonstrate the developed system inside RHino3D)
 
 ## Quick Start
